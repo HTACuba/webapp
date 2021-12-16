@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.portada {
+    color: white;
+    height: 400px;
+    background-image: url(./rsz_nathan-dumlao-6vhpy27jdps-unsplash.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+}
+
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+}
+
