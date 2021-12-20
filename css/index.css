@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #EDF2C2;
     
 } 
 
@@ -11,8 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 .portada {
     color: white;
     height: 400px;
-    background-image: url(./rsz_nathan-dumlao-6vhpy27jdps-unsplash.jpg);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(../images/intro.jpg);
+    background-color: rgba(0, 0, 0, 0.65);
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
