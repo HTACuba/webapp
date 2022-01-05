@@ -13,11 +13,10 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     height: 400px;
     background-image: url(../images/intro.jpg);
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-
 }
 
 .cover-small {
@@ -25,3 +24,12 @@ h1, h2, h3, h4, h5, h6 {
     background-blend-mode: normal;
 }
 
+hr {
+    background-color: #123859; 
+    height: 5px; 
+    margin: 0;
+}
+
+.bg-dark {
+    background-color: #002e25 !important;
+}
