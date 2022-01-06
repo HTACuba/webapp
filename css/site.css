@@ -9,26 +9,32 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+.portada {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}   
+
+ @media (min-width: 992px) {
     .portada {
-        color: white;
+       
         height: 400px;
         background-image: url(../images/portada.jpg);
-        background-color: rgba(0, 0, 0, 0.3);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: darken;
-
-    }   
+           
+    }
 }
+
 @media (max-width: 991.98px) {
     .portada {
-        color: white;
+        
         height: 350px;
         background-image: url(../images/Sin_título-2.jpg);
-        background-color: rgba(0, 0, 0, 0.3);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: darken;
-    
+           
     }
+}
+
+.card {
+    background-color: #b2d3c2;
 }
