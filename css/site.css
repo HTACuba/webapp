@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
         background-blend-mode: darken;
 
     }   
-}
+
 @media (max-width: 991.98px) {
     .portada {
         color: white;
