@@ -50,3 +50,8 @@ hr {
      background-color: #207b25 !important;
 
 }
+
+footer a, footer a:hover, footer a:focus, footer a:visited, footer a:active, footer a:focus-within {
+    text-decoration: none;
+    color: #004176; }
+
